@@ -9,7 +9,6 @@ repositories {
 dependencies {
     implementation project(':common')
 
-//    implementation 'org.springframework:spring-context:6.1.13'
-//    implementation 'org.springframework.kafka:spring-kafka'
-//    testImplementation 'org.springframework.kafka:spring-kafka-test'
+    implementation 'org.springframework.kafka:spring-kafka:3.2.4'
+    testImplementation 'org.springframework.kafka:spring-kafka-test:3.2.4'
 }
